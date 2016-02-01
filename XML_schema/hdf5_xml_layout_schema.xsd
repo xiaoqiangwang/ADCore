@@ -52,6 +52,7 @@
     <xs:attribute name="value" type="xs:string" use="optional" default="" />
     <xs:attribute name="ndattribute" type="xs:string" use="optional" default="" />
     <xs:attribute name="det_default" type="xs:boolean" use="optional" default="false" />
+    <xs:attribute name="write_ndattributes" type="xs:boolean" use="optional" default="true" />
   </xs:complexType>
 
   <!-- The hardlink element -->
